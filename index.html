@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sulik1.css">
+    <title>Алматинский экономический колледж</title>
+</head>
+<body>
+<div class="container">    
+    <header>
+<div class="center-block-main">
+            <a href="#">
+                <img src="https://almec.kz/wp-content/uploads/2021/06/logo.png" alt="" class="logo" width="130px" height="110px" >
+            </a>
+</div>
+<div class="title-block">
+    <nav>
+        <ul>
+            <li class="nav1"><a href="#about">О НАШЕМ КОЛЛЕДЖЕ</a></li>
+            <li class="nav1"><a href="#speciality">СПЕЦИАЛЬНОСТИ</a></li>
+            <li class="nav1"><a href="#form">ФОРМА ЗАПОЛНЕНИЯ</a></li>
+            <li class="nav1"><a href="#maps">АДРЕС И КОНТАКТЫ</a></li>
+</div>
+        </ul>
+    </nav>
+</div>  
+
+<div class="main" >
+    <section id="about">
+        <br><br><h1>Добро пожаловать, <br>Алматинский экономический колледж!</h1>
+        <br><br><h5>Алматинский экономический колледж (АЭК) – государственное учебное заведение, более 80 лет осуществляющее подготовку квалифицированных кадров по специальностям экономического и технологического профилей, в сферах питания и информационных технологий. Одним из главных достижений деятельности колледжа являются высокие показатели трудоустройства наших выпускнико
+        Мы гарантируем Вам приобретение глубоких знаний и востребованных компетенций, которые определят траекторию Вашего профессионального успеха в будущем!</h5>
+    </section>
+</div>  
+<div class="fonts">
+    <section id="speciality">
+        <h2>Специальности: </h2>
+    </section>
+</div>
+<div class="top-blocks">
+    <div class="block">
+        <h3><br>06130100 – Программное обеспечение</h3><br>        
+        <img src="img/1.png" alt="" width="180px" height="160px">
+    </div>
+    <div class="block">
+        <h3><br>10130300 – Организация питания</h3>
+        <br><img src="img/2.png" alt="" width="180px" height="180px">
+    </div>
+    <div class="block">
+        <h3><br>4120100 – Банковское и страховое дело</h3>
+        <br><img src="img/3.png" alt="" width="180px" height="180px">
+    </div>
+</div>
+<div class="top-blocks">
+    <div class="block">
+        <h3><br><br>04110100 – Учет и аудит</h3><br><br>
+        <img src="img/4.png" alt="" width="180px" height="180px">
+    </div>
+    <div class="block">
+        <br> <h3>07210600 – Производство <br>пива, безалкогольных<br> и спиртных напитков</h3>        
+        <br><img src="img/5.png" alt="" width="180px" height="180px">
+    </div>
+    <div class="block">
+        <br><h3>07210300 – Хлебопекарное, макаронное и кондитерское производство</h3>
+        <br><img src="img/6.png" alt="" width="180px" height="180px">
+    </div>
+</div>
+</header>
+<div class="text">
+    <section id="form">
+        <h1>Заявка на поступление <br>в Алматинский экономический колледж:</h1>
+    </section>
+</div>	<br>
+<form action="index.php" method="post">
+		<div class="form-group" >
+			<label for="name">Имя:</label>
+			<input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group" >
+			<label for="surname">Фамилия:</label>
+			<input type="text" id="surname" name="surname" required>
+        </div>
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Номер телефона:</label>
+            <input type="text" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="city">Город:</label>
+            <input type="text" id="city" name="city" required>
+        </div>
+		<div class="form-group">
+				<label for="specialty">Выберите специальность:</label>
+			<select id="specialty" name="specialty">
+                <option value="1">...</option>
+                <option value="1">06130100 – Программное обеспечение</option>
+                <option value="2">10130300 – Организация питания</option>
+                <option value="3">4120100 – Банковское и страховое дело</option>
+                <option value="4">04110100 – Учет и аудит</option>
+                <option value="5">07210600 – Производство пива, безалкогольных и спиртных напитков </option>
+                <option value="6">07210300 – Хлебопекарное, макаронное и кондитерское производство </option>
+            </select>
+		</div>
+
+        <div class="form-group">
+				<label for="qualification">Выберите квалификацию:</label>
+			<select id="qualification" name="qualification">
+                <option value="1">...</option>
+                <option value="1">3W06130102 – Web-дизайнер</option>
+                <option value="2">3W10130302 – Повар</option>
+                <option value="3">4S120100-Менеджер по банковским операциям</option>
+                <option value="4">4S04110102 – Бухгалтер</option>
+                <option value="5">07210600 – Производство пива, безалкогольных и спиртных напитков </option>
+                <option value="6">07210300 – Хлебопекарное, макаронное и кондитерское производство </option>
+            </select>
+            
+        </div>
+
+	    <div class="form-group">
+			<label for="question">Вопрос: </label>
+			<input type="text" id="question" name="question" required>
+        </div>
+    <button type="submit" value="Отправить заявку">Отправить заявку</button>
+</form>
+    <div class="widget widget_text"><br>
+        <div class="textwidget">
+            <section id="maps">
+                <h2 class="widget-title">Адрес и контакты: </h2>
+                <p>г. Алматы, ул. Гоголя 124 – уг. ул Шарипова<br>
+                Пн-Пт с 9:00 – 18:00<br>
+                <p><strong>Насчет поступления: </strong><br>
+                +7 (702) 627 50 69<br>
+                +7 (707) 627 50 69<br>
+                +7 (776) 627 50 69<br>
+                <strong>Приёмная:</strong> + 7 (727) 233 45 97<br>
+                <strong>Бухгалтерия:</strong> + 7 (727) 233 46 05<br>
+                <strong>E-mail: </strong>aec.almaty@yandex.kz</p>
+            </section>
+        </div>
+        <div class="widget-title">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2905.670788816919!2d76.922791!3d43.258321!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eb272e76ff7%3A0xffc2e68b09d00c48!2z0YPQu9C40YbQsCDQk9C-0LPQvtC70Y8gMTI0LCDQkNC70LzQsNGC0YsgMDUwMDAw!5e0!3m2!1sru!2skz!4v1697596040226!5m2!1sru!2skz" width="600px" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+    <div class="foot">
+<footer>
+    <p>&copy; 2023 Алматинский экономический колледж</p>
+</footer>
+</div>
+</div>
+</body>
+</html>
